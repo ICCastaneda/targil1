@@ -1,0 +1,8 @@
+.- main user = mysql -u root -p <enter>  pw = the  logon password
+
+.- create database targil1 character set utf8 collate utf8_general_ci;
+
+.- create table tg1_events (id int(11) not null auto_increment, event_title varchar(30) default null, event_date datetime default null, event_desc varchar(50), primary key (id) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+.- GRANT ALL PRIVILEGES on targil1.* to user01@'%' IDENTIFIED BY 'user01' with grant option;
+.- GRANT ALL PRIVILEGES on *.* to user01@localhost IDENTIFIED BY 'user01' with grant option;
