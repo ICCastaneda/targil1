@@ -1,5 +1,5 @@
 PORT = 5000
-HOST_NAME = "MY_HOST"
-USER = "MY_USER"
-PW = "MY_PW"
-DB_NAME = "TARGIL_EVENTS"
+HOST = "127.0.0.1"
+USER = "user01"
+PW = "user01"
+DB_NAME = "targil1"
